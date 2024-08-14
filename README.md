@@ -1,3 +1,8 @@
 # CPP
 NOTHING TO SEE HERE 
-All sorts of dumb coding practices
+<br>
+--
+All sorts of dumb C++ coding practices.
+--
+Projects
+1. Calculator
