@@ -28,6 +28,7 @@ public:
 
 int main() {
     char input_option;
+    int input_id;
     string version = "1.0.0";
     list<TodoItem> todoItems;
     list<TodoItem>::iterator it;
@@ -64,6 +65,10 @@ int main() {
 
         if (input_option == 'q' || input_option == 'Q') {
             cout << "Have a great day now! :)\n";
+            break;
+        } else if (input_option == 'c' || input_option == 'C') {
+            cout << "Enter id to mark complete: ";
+            cin >> input_id;
             break;
         }
 
