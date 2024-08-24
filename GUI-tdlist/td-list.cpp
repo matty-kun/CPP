@@ -1,12 +1,14 @@
-#include <iostream>
-#include <string>
-#include <vector>
-using namespace std;
+ #include "Task.h"
+ #include <string>
+ #include <vector>
+ #include <filesystem>
+ #include <fstream>
+ #include <algorithm>
 
-struct Task {
-    string description;
-    bool done;
-};
+void saveTasksToFile(const vector<Task>& tasks, const string& fileName){
 
-void saveTasksToFile(const vector<Task>& tasks, const string& fileName);
+}
 
+vector<Task> loadTaskFromFile(const string& fileName){
+
+}
