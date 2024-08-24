@@ -6,9 +6,10 @@
  #include <algorithm>
 
 void saveTasksToFile(const vector<Task>& tasks, const string& fileName){
-
+    ofstream ostream(fileName);
+    ostream << tasks.size();
 }
 
 vector<Task> loadTaskFromFile(const string& fileName){
-
+    return vector<Task>();
 }
